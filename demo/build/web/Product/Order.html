@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Order</title>
+	<link rel="shortcut icon" href="../Image/logo icon.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="ProductCss.css">
+	<link rel="stylesheet" type="text/css" href="OrderCss.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+	<div class="MenuList" id="Menu-category">
+		<button id="quit-category" style="height: 25px; width: 25px; background: none; border: none; margin: 10px auto; display: block;"><img style="margin: 0px auto; display: block;" src="../Image/Quit.png" alt=""></button>
+		<h3>Product list</h3>
+		<ul>
+			<li><a href="">Chair</a></li>
+			<li><a href="">Bed</a></li>
+			<li><a href="">Table</a></li>
+			<li><a href="">Bed</a></li>
+			<li><a href="">Chair</a></li>
+		</ul>
+	</div>
+	<div class="container">
+		<div class="Menu-list">
+			<button id="Menu-Product" style="background:  none; border: none;">
+				<img src="../Image/menu.png" alt="">
+			</button>
+		</div>
+		<div class="logo">
+			<a href="index.html"><img width="100" src="../Image/logo.png" alt=""></a>
+		</div>
+		<div class="menu-main">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="search">
+			<div class="box">
+				<button id="button-search" class="btnShowSearch" type="submit"><img width="15" src="../Image/search.png" alt=""></button>
+				<div class="searchpanel">
+					<form action="">
+						<button id="button-search" class="btnShowSearch" type="submit"><img width="15" src="../Image/search.png" alt=""></button>
+						<input type="text" placeholder="Search">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="iconModun Login">
+			<button id="btnUser"><img width="15" src="../Image/user.png" alt=""></button>
+			<div class="panelDangNhap">
+				<input type="text" placeholder="Your accout">
+				<input type="password" placeholder="**********">
+				<div style="width: 220px; margin: 0px auto">
+					<button id="btnDangKi">Đăng Kí</button>
+					<button id="btnDangNhap">Đăng Nhập</button>
+				</div>
+				<div style="margin: 5px auto;">
+					<a style="display: block; text-align: center;" href="">forget password</a>
+					<a style="color: #df1c47; text-align: center; display: block;" href="">Help me!</a>
+				</div>
+				
+			</div>
+			<div class="panelDangKi">
+				<div class="DangKi">
+					<span style="font-size: 30px; font-weight: bold;margin-top: 20px; display: block; margin-left: 40px">Sign Up</span>
+					<form action="" method="">
+						<div>
+							<div class="Box">
+								<input type="text" placeholder="Your accout">
+								<input type="password" pattern=".{6,}" placeholder="Your password">
+								<input class="emailDK" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email">
+								<input type="number" placeholder="Number">
+								<input type="text" pattern="[^'\x2]+" placeholder="Address">
+							</div>
+							<div class="Box">
+								<input type="text" placeholder="Your Name">
+								<div style="margin-left: 42px; display: block;">
+									<input style="width: 200px;" type="date">
+								</div>
+								<div id="divGenerateRandomValues"></div>  
+								<input style="" type="number" id="textInput"/>  
+							</div>
+						</div>
+						<button type="submit" id="buttonDangKi" style="width: 100px; height: 50px; border: 1px solid #000;  margin: 0px auto; display: block; font-weight: bold;">I agree</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="iconModun">
+			<button><img width="15" src="../Image/shop.png" alt=""></button>
+		</div>
+	</div>
+	<div class="menuSo">
+		
+	</div>
+	<div class="panelContent">
+		<h1>ORDER</h1>
+		 <p>Name Product<span class='lefts'>Chair BB</span></p>
+                 <p>Code<span class='lefts'>BD55456</span></p>
+                 <p>Total<span class='lefts'>520.000 VND</span></p>
+                 <p>Name Company<span class='lefts'>DEV NEO</span></p> 	
+
+                 <From action="">
+                 <input type="text" name=""  size="40" placeholder="Số điện thoại của bạn"><br>
+                 <input type="text" name=""  size="40" placeholder="Email của bạn"><br>
+                 <input type="text" name=""  size="40" placeholder="Địa chỉ của bạn"><br>
+                 <input type="text" name=""  size="40" placeholder="Mã xác nhận"><br>
+                 <input type="submit" value="I Agree"> 
+                 </From>
+	
+		<div class="btnFunction">
+				<button id="3D"><i class="fas fa-glasses"></i></button>
+				<a href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://www.facebook.com/DevNeo1802" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false"><button style="width:100%; margin-top:10px;" type="button" class="btn btn-facebook btn-lg"><i class="fas fa-share-alt"></i></button></a>
+				<button class="btn-love"><i id="love" class="far fa-heart"></i></button>
+				
+				<script>
+					
+					
+				</script>
+			</div>
+		<div class="panelFunction">
+			<div class="viewmodel3D">
+				<iframe src="demo.html" width="500" height="400" scrolling="auto" name="cua-so-1"></iframe>
+			</div>
+			<button id="Quit3D"><img src="../Image/Quit.png" alt=""></button>
+			<div style="float: left; width: 300px; margin-left: 30px;">
+				<div>
+					<script>
+						function allowDrop(ev) {
+						  ev.preventDefault();
+						}
+
+						function drag(ev) {
+						  ev.dataTransfer.setData("text", ev.target.id);
+						}
+
+						function drop(ev) {
+						  ev.preventDefault();
+						  var data = ev.dataTransfer.getData("text");
+						  ev.target.appendChild(document.getElementById(data));
+						}
+						</script>
+
+						<div class="backgroundkeo" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<br>
+						<img id="drag1" class="khungkeo" src="../Image/keo.png" draggable="true" ondragstart="drag(event)">
+				</div>
+				<p style="clear: both;">Bạn kéo vật vào hình để xem không gian</p>
+			</div>
+		</div>
+		<div class="panelShare">
+			<button><img width="30" src="../Image/facebook-logo.png" alt=""></button>
+			<button><img width="30" src="../Image/youtube.png" alt=""></button>
+		</div>
+	</div>
+
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous">
+
+</script>
+<script src="Product.js"></script>
+</body>
+</html>
